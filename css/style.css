@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container_1 {
+  margin-top: 100px;
+  position: relative;
+}
+.container_2 {
+  margin-top: 320px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

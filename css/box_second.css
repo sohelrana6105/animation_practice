@@ -1,0 +1,40 @@
+.box_second {
+  /* border: 2px solid gray; */
+  border-top: 4px solid red;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid rgb(3, 102, 3);
+  border-left: 4px solid rgb(4, 53, 20);
+  border-radius: 9999px;
+  height: 150px;
+  width: 150px;
+  background-color: saddlebrown;
+  position: absolute;
+
+  animation-name: circle_move;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  /* animation-timing-function: ease-in-out; */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+/* dot centered inside the circle */
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* height: 15px;
+  width: 15px; */
+  background-color: white;
+  border-radius: 50%;
+
+  font-size: 25px;
+}
+
+@keyframes circle_move {
+  0% {
+    transform: rotate(360deg);
+  }
+}
